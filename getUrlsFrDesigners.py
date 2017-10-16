@@ -1,3 +1,5 @@
+from pymongo import MongoClient
+from bson import ObjectId
 from google import search
 import urllib
 import urllib.request
@@ -13,11 +15,30 @@ def google_scrape(url):
 with open('designers.json') as data_file:
     data = json.load(data_file)
 
-for i in data:
-    designer_name=i['designer']
-    website=list(search(designer_name, stop=1))[0]
-    i['website']=website
-    print(designer_name,website)
+client = MongoClient()
+db= client.FashionData
+Designer=db['Designer']
+print(db)
 
-with open('designers.json', "w") as jsonFile:
-  json.dump(data, jsonFile)
+
+
+for i in data:
+    try:
+        designer_name=i['designer']
+        website=list(search(designer_name, stop=1))[0]
+        i['website']=website
+        db.Designer.insert({'name':designer_name, 'website': website})
+        print(designer_name, website)
+    except:
+        print(designer_name)
+
+
+    #break
+
+
+#with open('designers.json', "w") as jsonFile:
+#  json.dump(data, jsonFile)
+
+cursor = Designer.find()
+for document in cursor:
+    print(document)
