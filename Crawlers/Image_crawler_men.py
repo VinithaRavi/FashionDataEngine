@@ -112,7 +112,7 @@ class AsosSpider(scrapy.Spider):
             yield{
 
                     'image_id': str(id),
-                    'gender': 'male'
+                    'brand': 'male'
 
                 }
         #print(product_name, url)

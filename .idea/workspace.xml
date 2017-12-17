@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f19eb674-30e1-4a47-b12c-7dea5093c6f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/APIs/Download_Data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Crawlers/DataLoader.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Crawlers/Image_crawler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Crawlers/Image_crawler_men.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Crawlers/RalphLauren.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Crawlers/sample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Crawlers/SkinCrawler_gap.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APIs/Brands.py" afterPath="$PROJECT_DIR$/APIs/Brands.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawlers/Asos.py" afterPath="$PROJECT_DIR$/Crawlers/Asos.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawlers/Image_crawler_men.py" afterPath="$PROJECT_DIR$/Crawlers/Image_crawler_men.py" />
     </list>
     <ignored path="IndependentStudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,33 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataLoader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Crawlers/DataLoader.py">
+      <file leaf-file-name="SkinCrawler_gap.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Crawlers/SkinCrawler_gap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Asos.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Crawlers/Asos.py">
+      <file leaf-file-name="skin.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Crawlers/skin.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RalphLauren.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Crawlers/RalphLauren.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+            <state relative-caret-position="498">
+              <caret line="42" column="186" selection-start-line="42" selection-start-column="186" selection-end-line="42" selection-end-column="186" />
               <folding />
             </state>
           </provider>
@@ -99,12 +84,14 @@
         <option value="$PROJECT_DIR$/Crawlers/images.json" />
         <option value="$PROJECT_DIR$/Crawlers/imgs.json" />
         <option value="$PROJECT_DIR$/Crawlers/Image_crawler.py" />
-        <option value="$PROJECT_DIR$/Crawlers/Image_crawler_men.py" />
         <option value="$PROJECT_DIR$/Crawlers/sample.html" />
-        <option value="$PROJECT_DIR$/Crawlers/Asos.py" />
         <option value="$PROJECT_DIR$/Crawlers/RalphLauren.py" />
         <option value="$PROJECT_DIR$/Crawlers/rl_demo.json" />
         <option value="$PROJECT_DIR$/Crawlers/DataLoader.py" />
+        <option value="$PROJECT_DIR$/Crawlers/Asos.py" />
+        <option value="$PROJECT_DIR$/Crawlers/Image_crawler_men.py" />
+        <option value="$PROJECT_DIR$/Crawlers/SkinCrawler_gap.py" />
+        <option value="$PROJECT_DIR$/Crawlers/skin.json" />
       </list>
     </option>
   </component>
@@ -139,8 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,53 +152,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IndependentStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IndependentStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Crawlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Crawlers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Crawlers" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Crawlers" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.DataLoader">
-    <configuration default="false" name="Brands" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APIs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IndependentStudy" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APIs/Brands.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.SkinCrawler_gap">
     <configuration default="false" name="Asos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,6 +234,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IndependentStudy" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crawlers/DataLoader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SkinCrawler_gap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Crawlers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IndependentStudy" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crawlers/SkinCrawler_gap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -417,19 +390,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Brands" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Asos" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CollectBrands" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Image_crawler" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DataLoader" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Asos" />
+      <item index="1" class="java.lang.String" itemvalue="Python.CollectBrands" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Image_crawler" />
+      <item index="3" class="java.lang.String" itemvalue="Python.DataLoader" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SkinCrawler_gap" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DataLoader" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Image_crawler" />
-        <item index="2" class="java.lang.String" itemvalue="Python.CollectBrands" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Asos" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Brands" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SkinCrawler_gap" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DataLoader" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Image_crawler" />
+        <item index="3" class="java.lang.String" itemvalue="Python.CollectBrands" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Asos" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510550761051</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Crawler for RAulph lauren&#10;Script to create data for gender detection task&#10;Script to convert images to np arrays">
+      <created>1512007635488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512007635488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -476,17 +456,17 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20813772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.4968701" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3800298" sideWeight="0.5344288" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3800298" sideWeight="0.5375587" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.49061033" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.46244133" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960877" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3800298" sideWeight="0.4655712" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.366617" sideWeight="0.46244133" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3219076" sideWeight="0.471831" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3219076" sideWeight="0.471831" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -526,7 +506,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added APIs for the basic collections" />
     <MESSAGE value="Added crawler for Asos.com&#10;Added Scrapy framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added crawler for Asos.com&#10;Added Scrapy framework" />
+    <MESSAGE value="Crawler for RAulph lauren&#10;Script to create data for gender detection task&#10;Script to convert images to np arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Crawler for RAulph lauren&#10;Script to create data for gender detection task&#10;Script to convert images to np arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,42 +516,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brands.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CollectBrands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawlers/scrap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawlers/quotes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6030">
-          <caret line="402" column="105" selection-start-line="402" selection-start-column="105" selection-end-line="402" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawlers/FashionDataCrawler/FashionDataCrawler/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawlers/FashionDataCrawler/RalphLauren" />
     <entry file="file://$PROJECT_DIR$/Crawlers/Image_crawler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -624,13 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="51" column="28" selection-start-line="42" selection-start-column="12" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawlers/Image_crawler_men.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="99" column="26" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -801,28 +739,74 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Crawlers/DataLoader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Crawlers/RalphLauren.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIs/Download_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIs/Designers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIs/Brands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawlers/DataLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Crawlers/Asos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawlers/Image_crawler_men.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="110" column="34" selection-start-line="101" selection-start-column="12" selection-end-line="110" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawlers/data/skin/Calvin Klein_8b3ead9e-a862-41ec-879b-cb7599d27a87.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawlers/SkinCrawler_gap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawlers/skin.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="42" column="186" selection-start-line="42" selection-start-column="186" selection-end-line="42" selection-end-column="186" />
           <folding />
         </state>
       </provider>
